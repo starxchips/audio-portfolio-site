@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ivy Sloan</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+  </style>
+</head>
+
+<body>
+
+  <nav id="navbar">
+    <a href="index.html" class="logo">Ivy Sloan</a>
+    <button id="menu-toggle">&#9776;</button>
+    <div id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+<main>
+  <div id="main-text">
+    <h1>Let Your Words Be Heard</h1>
+    <br>
+    <p>
+      Meet Ivy 🎙️ — a voice actor who brings depth, nuance, and clarity to every word. <br>
+      Explore a portfolio filled with storytelling, vocal range, and creative sound.
+    </p>
+  </div>
+
+  <div class="img-container">
+    <img src="images/microphone.jpg" alt="Microphone with nature background" loading="lazy">
+  </div>
+
+  <br><br>
+
+  <h2 id="skillset-text">Voice Services</h2>
+
+  <div class="skill-cards">
+    <div class="skill-card">
+      <h3>Audiobook Narration</h3>
+      <p>Bringing characters to life with tone, pacing, and energy. Experienced in fiction and nonfiction across multiple genres.</p>
+    </div>
+
+    <div class="skill-card">
+      <h3>Commercial Explainer</h3>
+      <p>Clear, warm voiceovers for ads, explainer videos, and brand content. Always tailored to match tone and audience.</p>
+    </div>
+
+    <div class="skill-card">
+      <h3>Podcast Voice Work</h3>
+      <p>Host intros, ad reads, and narrative segments. Providing crisp, broadcast-quality sound with a natural delivery.</p>
+    </div>
+
+    <div class="skill-card">
+      <h3>Animation & Character</h3>
+      <p>Expressive voice acting for games, shorts, and animated projects. Accents, personality shifts, and improvisation-ready.</p>
+    </div>
+  </div>
+
+  <br><br>
+
+  <section class="background">
+    <div class="tools-cards">
+      <div class="tools-description-card">
+        <h3>Studio & Tools</h3>
+        <p>Working from a home studio equipped with a Rode NT1 mic, Focusrite Scarlett interface, and Adobe Audition. Sound-treated environment ensures clean, professional-grade recordings every time.</p>
+      </div>
+
+      <div class="tools-display-card">
+        <div class="columns-wrapper">
+          <div class="column">
+            <div class="progress-group">
+              <div class="label">Voice Range</div>
+              <div class="progress-bar">
+                <div class="progress-fill w-90"></div>
+              </div>
+            </div>
+            <div class="progress-group">
+              <div class="label">Audio Editing</div>
+              <div class="progress-bar">
+                <div class="progress-fill w-85"></div>
+              </div>
+            </div>
+            <div class="progress-group">
+              <div class="label">Script Reading</div>
+              <div class="progress-bar">
+                <div class="progress-fill w-95"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="progress-group">
+              <div class="label">Adobe Audition</div>
+              <div class="progress-bar">
+                <div class="progress-fill w-80"></div>
+              </div>
+            </div>
+            <div class="progress-group">
+              <div class="label">Mic Technique</div>
+              <div class="progress-bar">
+                <div class="progress-fill w-90"></div>
+              </div>
+            </div>
+            <div class="progress-group">
+              <div class="label">Remote Delivery</div>
+              <div class="progress-bar">
+                <div class="progress-fill w-100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>   
+    </div>
+  </section>
+
+  <center>
+    <blockquote>
+      <p><em>“The human voice is the most powerful sound in the world.”</em></p>
+      <footer>— Julian Treasure</footer>
+    </blockquote>
+  </center>
+</main>
+  <br>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const toggle = document.getElementById('menu-toggle');
+      const navLinks = document.getElementById('nav-links');
+
+      toggle.addEventListener('click', () => {
+        navLinks.classList.toggle('show');
+      });
+    });
+  </script>
+
+</body>
+</html>

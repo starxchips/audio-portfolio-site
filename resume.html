@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ivy Sloan</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&display=swap');
+  </style>
+</head>
+<body>
+
+  <nav id="navbar">
+    <a href="index.html" class="logo">Ivy Sloan</a>
+    <button id="menu-toggle">&#9776;</button>
+    <div id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+<main>
+  <div id="main-text">
+    <h1>My Resume</h1>
+    <br>
+    <p>A quick look at my voiceover experience, past projects, and media background.</p>
+  </div>
+
+  <div class="categories">
+    <h2 class="resume-item">Professional Experience</h2>
+
+    <div class="resume-cards">
+      <div class="resume-card">
+        <div class="resume-card-header">
+          <h3>Freelance Voice Actor</h3>
+          <p class="job-info">Remote | 2022 - Present</p>
+        </div>
+        <ul>
+          <li>Worked with independent clients and studios for audiobook narration, animated shorts, and podcast intros.</li>
+          <li>Managed full-cycle production including script prep, voice performance, editing, and mastering.</li>
+          <li>Delivered clear, emotionally resonant reads tailored to brand and genre.</li>
+        </ul>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="resume-cards">
+      <div class="resume-card">
+        <div class="resume-card-header">
+          <h3>Podcast Narrator & Editor at Brighter Minds</h3>
+          <p class="job-info">Remote | 2023 - 2024</p>
+        </div>
+        <ul>
+          <li>Provided weekly narration for educational podcast segments and sponsorship reads.</li>
+          <li>Used Adobe Audition to edit dialogue, clean background noise, and mix music transitions.</li>
+        </ul>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="resume-cards">
+      <div class="resume-card">
+        <div class="resume-card-header">
+          <h3>Game Character Voice – Wanderlight</h3>
+          <p class="job-info">Freelance | 2023</p>
+        </div>
+        <ul>
+          <li>Voiced the main quirky character in the indie 2D adventure game <i>Wanderlight</i>.</li>
+          <li>Provided vocal variations, accents, and character reactions for in-game events and cutscenes.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2 class="resume-item">Education</h2>
+
+    <div class="resume-cards">
+      <div class="resume-card">
+        <div class="resume-card-header">
+          <h3>B.A. in Media Arts & Performance</h3>
+          <p class="job-info">Online Program | 2018 - 2022</p>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="resume-item">Tools & Skills</h2>
+
+    <div class="resume-cards">
+      <div class="resume-card">
+        <ul>
+          <li>Voice Acting: Narration, Commercial, Character Work</li>
+          <li>Software: Adobe Audition, Audacity, GarageBand</li>
+          <li>Production: Mic Technique, Sound Editing, Remote Recording</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const toggle = document.getElementById('menu-toggle');
+      const navLinks = document.getElementById('nav-links');
+      
+      toggle.addEventListener('click', () => {
+        navLinks.classList.toggle('show');
+      });
+    });
+  </script>
+
+</body>
+</html>
